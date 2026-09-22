@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Same-Day Auto Repair in Pflugerville, TX | AFS Truck & Auto Repair Center</title>
+<meta name="description" content="Fast, honest, same-day auto repair in Pflugerville, Round Rock & Hutto. Family-owned. 250+ 5-star reviews. Call now or get a free quote in 60 seconds.">
+<meta name="robots" content="noindex,nofollow"><!-- demo/proposal page: keep out of search so it never competes with or is mistaken for the live afsrepairs.com -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --amber:#FBC403;
+    --amber-dark:#e0ac00;
+    --ink:#0A0A0A;
+    --ink-2:#1c1c1c;
+    --grey:#5a5a5a;
+    --line:#e6e6e6;
+    --bg-soft:#f6f6f4;
+    --white:#ffffff;
+    --ok:#1a8f3c;
+    --shadow:0 10px 30px rgba(0,0,0,.12);
+    --radius:14px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Heebo',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--white);line-height:1.55;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,.h{font-family:'Open Sans',system-ui,sans-serif;line-height:1.15;letter-spacing:-.01em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+  .amber{color:var(--amber)}
+
+  /* ---------- top utility bar ---------- */
+  .topbar{background:var(--ink);color:#fff;font-size:14px}
+  .topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:8px 20px;flex-wrap:wrap}
+  .topbar .badge{display:inline-flex;align-items:center;gap:7px;color:#e9e9e9}
+  .topbar .stars{color:var(--amber);letter-spacing:1px}
+  .topbar a.tel{color:#fff;font-weight:700;display:inline-flex;align-items:center;gap:8px}
+  .topbar a.tel:hover{color:var(--amber)}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px}
+  .logo img{height:44px;width:auto}
+  .logo .txt{font-family:'Open Sans';font-weight:800;font-size:20px}
+  .logo .txt small{display:block;font-size:11px;font-weight:600;color:var(--grey);letter-spacing:.5px}
+  .head-cta{display:flex;align-items:center;gap:12px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font-weight:700;font-family:'Open Sans';border-radius:10px;padding:13px 22px;cursor:pointer;border:none;transition:transform .06s ease, box-shadow .2s;font-size:16px}
+  .btn:active{transform:translateY(1px)}
+  .btn-amber{background:var(--amber);color:var(--ink);box-shadow:0 6px 18px rgba(251,196,3,.4)}
+  .btn-amber:hover{background:var(--amber-dark)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{background:var(--ink-2)}
+  .btn-ghost{background:transparent;border:2px solid var(--ink);color:var(--ink);padding:11px 20px}
+  .btn-block{width:100%}
+  .head-tel{font-family:'Open Sans';font-weight:800;font-size:18px;display:inline-flex;align-items:center;gap:8px}
+  .head-tel small{display:block;font-family:'Heebo';font-weight:500;font-size:11px;color:var(--grey)}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;background:linear-gradient(115deg,#0a0a0a 0%,#161616 55%,#0a0a0a 100%);color:#fff;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-120px;top:-80px;width:520px;height:520px;background:radial-gradient(circle,rgba(251,196,3,.16),transparent 62%);pointer-events:none}
+  .hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:44px;padding:52px 20px 60px;align-items:center;position:relative;z-index:2}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(251,196,3,.14);color:var(--amber);font-weight:700;font-size:13px;padding:7px 13px;border-radius:999px;letter-spacing:.4px;margin-bottom:18px}
+  .hero h1{font-size:44px;font-weight:800;margin-bottom:16px}
+  .hero h1 .amber{color:var(--amber)}
+  .hero .sub{font-size:18px;color:#d7d7d7;max-width:540px;margin-bottom:22px}
+  .ticks{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;margin-bottom:26px;max-width:520px}
+  .ticks li{display:flex;align-items:flex-start;gap:9px;font-size:15px;color:#eaeaea;font-weight:500}
+  .ticks svg{flex:0 0 auto;margin-top:2px}
+  .hero-cta{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+  .hero-cta .note{font-size:13px;color:#b9b9b9;display:flex;align-items:center;gap:7px;margin-top:4px}
+  .trust-inline{display:flex;align-items:center;gap:16px;margin-top:22px;flex-wrap:wrap}
+  .trust-inline .pill{display:flex;align-items:center;gap:8px;font-size:13px;color:#d7d7d7}
+  .trust-inline .stars{color:var(--amber);font-size:15px;letter-spacing:1px}
+
+  /* ---------- form card ---------- */
+  .form-card{background:#fff;color:var(--ink);border-radius:18px;box-shadow:var(--shadow);padding:26px 24px;position:relative}
+  .form-card .cap{background:var(--amber);color:var(--ink);font-family:'Open Sans';font-weight:800;font-size:13px;letter-spacing:.5px;display:inline-block;padding:6px 12px;border-radius:8px;margin-bottom:6px}
+  .form-card h3{font-size:22px;margin:8px 0 4px}
+  .form-card p.small{font-size:13.5px;color:var(--grey);margin-bottom:16px}
+  .field{margin-bottom:12px}
+  .field label{display:block;font-size:13px;font-weight:600;margin-bottom:5px}
+  .field input,.field select,.field textarea{width:100%;padding:12px 13px;border:1.5px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit;background:#fbfbfa;transition:border-color .15s}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--amber);background:#fff}
+  .form-foot{font-size:11.5px;color:var(--grey);margin-top:10px;text-align:center;line-height:1.4}
+  .form-foot a{text-decoration:underline}
+
+  /* ---------- strip / stats ---------- */
+  .strip{background:var(--amber)}
+  .strip .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:18px 20px;text-align:center}
+  .strip .stat b{display:block;font-family:'Open Sans';font-weight:800;font-size:26px;color:var(--ink)}
+  .strip .stat span{font-size:13.5px;color:#3a3300;font-weight:600}
+
+  /* ---------- sections ---------- */
+  section.pad{padding:60px 0}
+  .sec-head{text-align:center;max-width:720px;margin:0 auto 40px}
+  .sec-head .kick{color:var(--amber-dark);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase}
+  .sec-head h2{font-size:33px;font-weight:800;margin:8px 0 10px}
+  .sec-head p{color:var(--grey);font-size:16.5px}
+  .bg-soft{background:var(--bg-soft)}
+
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px;transition:transform .12s, box-shadow .2s}
+  .card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+  .card .ic{width:48px;height:48px;border-radius:12px;background:rgba(251,196,3,.16);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+  .card h3{font-size:19px;margin-bottom:7px}
+  .card p{color:var(--grey);font-size:14.5px}
+
+  /* services list */
+  .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .svc a{display:flex;align-items:center;gap:11px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:15px 16px;font-weight:600;font-size:15px;transition:border-color .15s, background .15s}
+  .svc a:hover{border-color:var(--amber);background:#fffdf3}
+  .svc .dot{width:9px;height:9px;border-radius:50%;background:var(--amber);flex:0 0 auto}
+
+  /* reviews */
+  .rev{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .review{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 22px}
+  .review .stars{color:var(--amber);letter-spacing:2px;font-size:17px;margin-bottom:10px}
+  .review p{font-size:15px;color:#333;margin-bottom:14px}
+  .review .who{display:flex;align-items:center;gap:11px}
+  .review .av{width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--amber);display:flex;align-items:center;justify-content:center;font-weight:800;font-family:'Open Sans'}
+  .review .who b{font-size:14.5px;display:block}
+  .review .who span{font-size:12.5px;color:var(--grey)}
+
+  /* location */
+  .loc{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+  .loc h2{font-size:30px;font-weight:800;margin-bottom:14px}
+  .loc .row{display:flex;align-items:flex-start;gap:12px;margin-bottom:14px}
+  .loc .row .ic{flex:0 0 auto;width:40px;height:40px;border-radius:10px;background:rgba(251,196,3,.16);display:flex;align-items:center;justify-content:center}
+  .loc .row b{font-family:'Open Sans';font-size:15.5px}
+  .loc .row span{color:var(--grey);font-size:14.5px}
+  .map{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);min-height:320px;background:#e9e9e6}
+  .map iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+
+  /* final cta */
+  .final{background:linear-gradient(115deg,#0a0a0a,#191919);color:#fff;text-align:center}
+  .final .wrap{padding:56px 20px}
+  .final h2{font-size:34px;font-weight:800;margin-bottom:12px}
+  .final p{color:#d3d3d3;font-size:17px;margin-bottom:24px;max-width:560px;margin-left:auto;margin-right:auto}
+  .final .hero-cta{justify-content:center}
+
+  /* footer */
+  footer{background:#050505;color:#9a9a9a;font-size:13.5px}
+  footer .wrap{padding:26px 20px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center}
+  footer a:hover{color:var(--amber)}
+
+  /* sticky mobile call bar */
+  .mobilebar{display:none}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:900px){
+    .hero .wrap{grid-template-columns:1fr;gap:30px;padding:38px 20px 44px}
+    .hero h1{font-size:34px}
+    .grid-3,.svc,.rev{grid-template-columns:1fr 1fr}
+    .loc{grid-template-columns:1fr}
+    .strip .wrap{grid-template-columns:1fr 1fr;gap:16px 8px}
+  }
+  @media(max-width:600px){
+    .head-cta .btn-ghost{display:none}
+    .head-tel small{display:none}
+    .grid-3,.svc,.rev,.ticks{grid-template-columns:1fr}
+    .hero h1{font-size:29px}
+    .sec-head h2{font-size:26px}
+    .final h2{font-size:27px}
+    body{padding-bottom:70px}
+    .mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:99;background:var(--ink);padding:9px 12px;gap:9px;box-shadow:0 -6px 20px rgba(0,0,0,.25)}
+    .mobilebar a{flex:1;text-align:center;padding:13px 8px;border-radius:10px;font-weight:800;font-family:'Open Sans';font-size:15px}
+    .mobilebar .call{background:var(--amber);color:var(--ink)}
+    .mobilebar .quote{background:#2a2a2a;color:#fff;border:1px solid #3a3a3a}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP UTILITY BAR ============ -->
+<div class="topbar">
+  <div class="wrap">
+    <span class="badge"><span class="stars">★★★★★</span> 250+ 5-Star Google Reviews</span>
+    <span class="badge">Same-Day Service &nbsp;•&nbsp; Family-Owned &nbsp;•&nbsp; Pflugerville · Round Rock · Hutto</span>
+    <a class="tel" href="tel:+17373584363" data-cta="call" data-loc="topbar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.24 1z" fill="#FBC403"/></svg>
+      (737) 358-4363
+    </a>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="AFS Truck & Auto Repair Center">
+      <img src="https://www.afsrepairs.com/wp-content/uploads/2025/09/AFS-HZ-NO-TAG-COLOR@3x-1-1536x267.png" alt="AFS Truck & Auto Repair Center" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="txt" style="display:none">AFS<small>TRUCK &amp; AUTO REPAIR</small></span>
+    </a>
+    <div class="head-cta">
+      <a class="btn-ghost btn" href="#quote">Get a Free Quote</a>
+      <a class="head-tel" href="tel:+17373584363" data-cta="call" data-loc="header">
+        <svg width="20" height="20" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.24 1z" fill="#0A0A0A"/></svg>
+        <span>(737) 358-4363<small>Call now · fast pickup</small></span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<span id="top"></span>
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">⚡ SAME-DAY REPAIRS · PFLUGERVILLE, TX</span>
+      <h1>Honest, Same-Day <span class="amber">Auto Repair</span> in Pflugerville</h1>
+      <p class="sub">Brakes, batteries, A/C, diagnostics, engine &amp; transmission, done right the first time by a family-owned shop trusted by Central Texas drivers. Get back on the road today.</p>
+      <ul class="ticks">
+        <li><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FBC403"/><path d="M7 12.5l3 3 7-7" stroke="#0A0A0A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Same-day service available</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FBC403"/><path d="M7 12.5l3 3 7-7" stroke="#0A0A0A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Upfront, transparent pricing</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FBC403"/><path d="M7 12.5l3 3 7-7" stroke="#0A0A0A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Experienced technicians</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#FBC403"/><path d="M7 12.5l3 3 7-7" stroke="#0A0A0A" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg> Done right the first time</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-amber" href="tel:+17373584363" data-cta="call" data-loc="hero">
+          <svg width="19" height="19" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.24 1z" fill="#0A0A0A"/></svg>
+          Call (737) 358-4363
+        </a>
+        <a class="btn btn-ghost" href="#quote" style="border-color:#fff;color:#fff">Get a Free Quote →</a>
+      </div>
+      <div class="trust-inline">
+        <span class="pill"><span class="stars">★★★★★</span> 250+ 5-star reviews</span>
+        <span class="pill">🔧 Family-owned</span>
+        <span class="pill">📍 1707 Maple Vista Dr, Pflugerville</span>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="form-card" id="quote">
+      <span class="cap">FREE QUOTE · 60 SECONDS</span>
+      <h3>Get Your Free Repair Quote</h3>
+      <p class="small">Tell us what's going on. We'll call you back fast, usually within the hour during business hours.</p>
+      <form id="leadForm" novalidate>
+        <div class="field">
+          <label for="name">Full name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone number</label>
+          <input id="phone" name="phone" type="tel" placeholder="(xxx) xxx-xxxx" required>
+        </div>
+        <div class="field">
+          <label for="service">What do you need?</label>
+          <select id="service" name="service" required>
+            <option value="" selected disabled>Select a service</option>
+            <option>Brakes</option>
+            <option>Battery / electrical</option>
+            <option>A/C repair</option>
+            <option>Oil change &amp; maintenance</option>
+            <option>Check-engine / diagnostics</option>
+            <option>Engine or transmission</option>
+            <option>Other / not sure</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="vehicle">Vehicle (year, make, model)</label>
+          <input id="vehicle" name="vehicle" type="text" placeholder="e.g. 2018 Ford F-150">
+        </div>
+        <button class="btn btn-amber btn-block" type="submit" data-cta="form_submit">Get My Free Quote →</button>
+        <p class="form-foot" id="formMsg">🔒 No spam. Your details are only used to contact you about your repair.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STAT STRIP ============ -->
+<div class="strip">
+  <div class="wrap">
+    <div class="stat"><b>Same-Day</b><span>Service available</span></div>
+    <div class="stat"><b>250+</b><span>5-star reviews</span></div>
+    <div class="stat"><b>Family</b><span>Owned &amp; operated</span></div>
+    <div class="stat"><b>Honest</b><span>Upfront pricing</span></div>
+  </div>
+</div>
+
+<!-- ============ WHY US ============ -->
+<section class="pad">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick">Why Pflugerville trusts AFS</span>
+      <h2>Repairs done right, the first time</h2>
+      <p>No upsells, no runaround. Just honest diagnostics, fast turnaround, and workmanship that keeps you safely on the road.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="#FBC403"/></svg></div>
+        <h3>Same-day turnaround</h3>
+        <p>Most common repairs handled the same day so you're not stuck without a vehicle.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3z" fill="#FBC403"/><path d="M8.5 12l2.5 2.5 4.5-5" stroke="#0A0A0A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Honest &amp; transparent</h3>
+        <p>Clear estimates before any work starts. You approve the price, then we fix it.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="5" fill="#FBC403"/><path d="M8 13l-1 8 5-3 5 3-1-8" fill="#FBC403"/></svg></div>
+        <h3>Experienced technicians</h3>
+        <p>Seasoned pros who diagnose it right, so you don't pay twice for the same problem.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.4 8.5 8 11 4.6-2.5 8-6 8-11V5l-8-3z" fill="#FBC403"/><path d="M8.5 12l2.5 2.5 4.5-5" stroke="#0A0A0A" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Fixed right the first time</h3>
+        <p>We focus on doing the job correctly the first visit, not quick fixes that come back.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 21s-7-4.4-7-10a7 7 0 0 1 14 0c0 5.6-7 10-7 10z" fill="#FBC403"/><circle cx="12" cy="11" r="2.5" fill="#0A0A0A"/></svg></div>
+        <h3>Local &amp; convenient</h3>
+        <p>Right here in Pflugerville, serving Round Rock, Hutto and the greater Austin area.</p>
+      </div>
+      <div class="card">
+        <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 13h2l2-5h10l2 5h2v5h-2a2 2 0 0 1-4 0H9a2 2 0 0 1-4 0H3v-5z" fill="#FBC403"/></svg></div>
+        <h3>Cars, trucks &amp; fleets</h3>
+        <p>From the family SUV to diesel trucks and commercial fleets, one shop handles it all.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="pad bg-soft">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick">Our services</span>
+      <h2>What we fix in Pflugerville</h2>
+      <p>Whatever your vehicle needs, our team gets it diagnosed and repaired fast.</p>
+    </div>
+    <div class="svc">
+      <a href="#quote"><span class="dot"></span> Brake Repair &amp; Pads</a>
+      <a href="#quote"><span class="dot"></span> Battery &amp; Electrical</a>
+      <a href="#quote"><span class="dot"></span> A/C &amp; Heating Repair</a>
+      <a href="#quote"><span class="dot"></span> Oil Change &amp; Maintenance</a>
+      <a href="#quote"><span class="dot"></span> Check-Engine Diagnostics</a>
+      <a href="#quote"><span class="dot"></span> Engine Repair</a>
+      <a href="#quote"><span class="dot"></span> Transmission Service</a>
+      <a href="#quote"><span class="dot"></span> Diesel Engine Repair</a>
+      <a href="#quote"><span class="dot"></span> Alternator &amp; Starter</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="pad">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kick">★★★★★ 250+ 5-star reviews</span>
+      <h2>What our customers say</h2>
+      <p>Real reviews from Central Texas drivers who trust AFS with their vehicles.</p>
+    </div>
+    <div class="rev">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"So glad I found AFS Pflugerville. They went over the top to help. Bobby restored my faith in customer service. I highly recommend them."</p>
+        <div class="who"><span class="av">EW</span><span><b>Ellen Wicker</b><span>Battery &amp; Engine Diagnostic</span></span></div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Michael was spot on, straight forward and kept us updated, also knew what he was talking about. Since I can't leave 6 stars."</p>
+        <div class="who"><span class="av">EG</span><span><b>Erick Gutierrez</b><span>Battery Service</span></span></div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Everyone I talked to was incredibly professional and great to work with, from the time I got there to the time I left. Would definitely recommend!"</p>
+        <div class="who"><span class="av">JA</span><span><b>John Alvarado</b><span>Oil Change</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATION ============ -->
+<section class="pad bg-soft">
+  <div class="wrap">
+    <div class="loc">
+      <div>
+        <span class="kick" style="color:var(--amber-dark);font-weight:700;font-size:13px;letter-spacing:1px;text-transform:uppercase">Visit us</span>
+        <h2>Pflugerville, TX Location</h2>
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10a7 7 0 0 1 14 0c0 5.6-7 10-7 10z" fill="#0A0A0A"/><circle cx="12" cy="11" r="2.5" fill="#FBC403"/></svg></span>
+          <span><b>1707 Maple Vista Dr, Ste A</b><br><span>Pflugerville, TX 78660</span></span>
+        </div>
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.24 1z" fill="#0A0A0A"/></svg></span>
+          <span><b><a href="tel:+17373584363" data-cta="call" data-loc="location">(737) 358-4363</a></b><br><span>Call for same-day service</span></span>
+        </div>
+        <div class="row">
+          <span class="ic"><svg width="20" height="20" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="#0A0A0A"/><path d="M12 7v5l3 2" stroke="#FBC403" stroke-width="2" fill="none" stroke-linecap="round"/></svg></span>
+          <span><b>Mon – Fri: 8:00 AM – 5:00 PM</b><br><span>Saturday by appointment only</span></span>
+        </div>
+        <a class="btn btn-dark" href="#quote" style="margin-top:8px">Book Your Repair →</a>
+      </div>
+      <div class="map">
+        <iframe loading="lazy" title="AFS Truck & Auto Repair Center, Pflugerville TX" src="https://www.google.com/maps?q=1707%20Maple%20Vista%20Dr%20Pflugerville%20TX%2078660&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final">
+  <div class="wrap">
+    <h2>Need a repair today? Let's get you back on the road.</h2>
+    <p>Call now for same-day service, or grab a free quote in under a minute. Family-owned, honest, and fast.</p>
+    <div class="hero-cta">
+      <a class="btn btn-amber" href="tel:+17373584363" data-cta="call" data-loc="final">
+        <svg width="19" height="19" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .57 3.6 1 1 0 0 1-.24 1z" fill="#0A0A0A"/></svg>
+        Call (737) 358-4363
+      </a>
+      <a class="btn btn-ghost" href="#quote" style="border-color:#fff;color:#fff">Get a Free Quote →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> AFS Truck &amp; Auto Repair Center · Pflugerville, TX</span>
+    <span>Auto Repair · Fleet Services · Diesel · Round Rock · Hutto · Austin</span>
+  </div>
+</footer>
+
+<!-- ============ STICKY MOBILE CALL BAR ============ -->
+<div class="mobilebar">
+  <a class="call" href="tel:+17373584363" data-cta="call" data-loc="mobilebar">📞 Call Now</a>
+  <a class="quote" href="#quote">Free Quote</a>
+</div>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* ---- Conversion tracking hooks (wire to GTM/GA4/Google Ads once account access is granted) ---- */
+  function track(event, detail){
+    // Pushes to dataLayer so GTM can fire GA4 + Google Ads conversions.
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(Object.assign({event:event}, detail||{}));
+  }
+  document.querySelectorAll('[data-cta="call"]').forEach(function(a){
+    a.addEventListener('click', function(){ track('call_click', {location:a.getAttribute('data-loc')}); });
+  });
+
+  /* ---- Lead form: light validation + demo confirmation ---- */
+  var form = document.getElementById('leadForm');
+  var msg = document.getElementById('formMsg');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = form.name.value.trim();
+    var phone = form.phone.value.trim();
+    var service = form.service.value;
+    if(!name || !phone || !service){
+      msg.textContent = '⚠️ Please add your name, phone and the service you need.';
+      msg.style.color = '#c0392b';
+      return;
+    }
+    track('generate_lead', {service:service});
+    /* PRODUCTION: replace this block with a real submit
+       (MetForm endpoint / CRM webhook / email handler) + redirect to a thank-you page. */
+    form.querySelector('button').textContent = '✓ Request sent';
+    form.querySelector('button').style.background = '#1a8f3c';
+    form.querySelector('button').style.color = '#fff';
+    msg.innerHTML = '✅ Thanks! We\'ll call you back shortly at <b>' + phone.replace(/[<>]/g,'') + '</b>.';
+    msg.style.color = '#1a8f3c';
+  });
+</script>
+</body>
+</html>
